@@ -3,8 +3,7 @@
 
 int main()
 {
-    double an = 6.0221409e23;
-    printf("Avogadro's Number: %le %lf %lg \n", an, an, an);
-    float hp = 9.75;
-    printf("Hogwarts' Platform: %e %f %g \n", hp, hp, hp);
+    char x = 'M';
+    wchar_t y = L'Z';
+    printf("Windows binaries startwith %c%lc. \n",x,y);
 }
