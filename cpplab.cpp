@@ -3,7 +3,7 @@
 
 int main()
 {
-    char x = 'M';
-    wchar_t y = L'Z';
-    printf("Windows binaries startwith %c%lc. \n",x,y);
+    bool b1 = true;
+    bool b2 = false;
+    printf("%d %d \n", b1, b2);
 }
